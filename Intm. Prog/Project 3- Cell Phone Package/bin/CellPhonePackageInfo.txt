@@ -1,0 +1,9 @@
+t,1000 minutes,$29.99
+t,5000 minutes,$49.99
+t,Unlimitied,$69.99
+p,Model 100,$39.95
+p,Model 200,$49.95
+p,Model 300,$59.95
+d,3 GB,$19.99
+d,6 GB,$49.99
+d,Unlimited,$69.99

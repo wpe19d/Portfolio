@@ -1,0 +1,7 @@
+6
+soldier
+lucio
+roadhog
+junkrat
+mercy
+sombra

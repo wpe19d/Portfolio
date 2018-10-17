@@ -1,0 +1,9 @@
+building,My house,150,12,1.37
+building,Work,1050,12,1.37
+building,The office,50,12,1.37
+vehicle,2012,Toyota,Tacoma,100,23
+vehicle,2017,Subaru,WRX,200,26
+vehicle,2015,Toyota,Corolla,150,30
+food,fruit,bannana,25,12
+food,meat,hamburger,40,12
+food,dairy,milk,20,12

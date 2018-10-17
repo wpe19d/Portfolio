@@ -1,0 +1,15 @@
+What is the closest planet to the sun?,Mercury,1
+What year was the attack on Pearl Harbor?,1941,1
+The second largest planet in the solar system is?,Saturn,2
+What is the last name of the Sec. of Defense?,Mattis,5
+What Roman emperor fiddled while Rome burned?,Nero,5
+Ganymede is the moon of what planet?,Jupiter,4
+What is the hardest natural substance?,Diamond,2
+Who was elected president in 2017?,Donald Trump,1
+Wile E Coyote is always trying to catch who?,Road Runner,1
+Who is Simba's father in the Lion King?,Mufasa,2
+What was the name of the bird in Lion King?,Zazoo,4
+What company produces Windows OS?,Microsoft,2
+What main character dies in The Force Awakens?,Han Solo,2
+What company produced the game Overwatch?,Blizzard,5
+What language is this program written in?,Java,1

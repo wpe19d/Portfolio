@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <BorderPane layoutX="0.0" layoutY="0.0" prefHeight="266.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <top>
+        <MenuBar>
+          <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#openFile" text="Open" />
+                <MenuItem mnemonicParsing="false" onAction="#saveFile" text="Save" />
+                <MenuItem mnemonicParsing="false" onAction="#closeWindow" text="Exit" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#spellCheck" text="Spell Check" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </top>
+         <center>
+            <TextArea fx:id="textArea" style="-fx-border-color: White; -fx-border-width: 0; -fx-background-color: white; -fx-background-insets: 0, 1, 2; -fx-background-radius: 3.4, 2, 2;" wrapText="true" BorderPane.alignment="CENTER" />
+         </center>
+    </BorderPane>
+  </children>
+</AnchorPane>

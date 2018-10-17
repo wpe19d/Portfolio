@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="100.0" maxWidth="100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Pane layoutX="7.0" layoutY="109.0" prefWidth="400.0" AnchorPane.bottomAnchor="391.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="109.0">
+         <children>
+            <ImageView fx:id="horseOne" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HorseRunning.gif" />
+               </image></ImageView>
+         </children>
+      </Pane>
+      <Pane layoutY="200.0" prefWidth="400.0" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+         <children>
+            <ImageView fx:id="horseTwo" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HorseRunning.gif" />
+               </image></ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="204.0" layoutY="10.0" prefWidth="400.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="300.0">
+         <children>
+            <ImageView fx:id="horseThree" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HorseRunning.gif" />
+               </image></ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" layoutY="20.0" prefWidth="400.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+         <children>
+            <ImageView fx:id="horseFour" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HorseRunning.gif" />
+               </image></ImageView>
+         </children></Pane>
+      <Pane layoutX="214.0" layoutY="20.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="500.0">
+         <children>
+            <ImageView fx:id="horseFive" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HorseRunning.gif" />
+               </image></ImageView>
+         </children></Pane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#start" text="Start Race" />
+      <Button layoutX="413.0" layoutY="14.0" mnemonicParsing="false" onAction="#reset" text="Reset Race" />
+      <Button layoutX="798.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeWindow" text="Quit Program" />
+      <Label fx:id="winningHorse" layoutX="14.0" layoutY="54.0" />
+      <Label fx:id="winningTime" layoutX="798.0" layoutY="54.0" />
+   </children>
+</AnchorPane>
