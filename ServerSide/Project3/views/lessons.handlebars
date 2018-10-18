@@ -1,0 +1,11 @@
+<div id="lessons">
+    {{#each lessons}}
+        <p>Name: {{this.name}}</p>
+        <p>Email: {{this.mail}}</p>
+        <p>Phone: {{this.phone}}</p>
+        <p>Date: {{this.day_time}}</p>
+        <p>Comments: {{this.comments}}</p>
+    {{else}}
+        <h1>No Lessons Scheduled</h1>
+    {{/each}}
+</div>

@@ -1,0 +1,16 @@
+ <div id="instructors">
+        {{#each instructors}}
+        <ul>
+            <p><strong>{{this.name}}</strong></p>
+            <p><img src={{this.image}}></img></p>
+            <p>{{this.bio}}</p>
+            <p>{{this.startYear}}</p>
+            <p>${{this.rate.amount}} per {{this.rate.minutes}} minutes.</p>
+            {{#each this.instruments}}
+                <p>{{this.name}}</p>
+            {{/each}}
+            <p><a href="/lessons/schedule/{{this.id}}">Book A Lesson</a></p>
+            __________________________________________________________
+        </ul>
+        {{/each}}
+    </div>
